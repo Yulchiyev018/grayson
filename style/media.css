@@ -1,0 +1,150 @@
+@media(max-width:1100px) {
+    .comerce__cards {
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 550px;
+        margin: 0 auto;
+    }
+
+    .custom__cards {
+        flex-wrap: wrap;
+        max-width: 550px;
+        margin: 20px auto;
+        gap: 20px;
+    }
+
+}
+
+@media(max-width:992px) {
+    .nav__item {
+        flex-direction: column;
+    }
+
+    .nav__item_link {
+        margin: 20px auto;
+        order: 1;
+    }
+
+    .nav__dropdown {
+        top: 35%;
+    }
+
+    .nav__form {
+        margin-top: 20px;
+    }
+    .footer__item {
+        text-align: center;
+        max-width: 540px;
+        flex-wrap: wrap;
+    }
+
+    .footer__item_block {
+        align-items: center;
+    }
+}
+
+@media(max-width:768px) {
+    .item__list {
+        align-items: center;
+    }
+
+    .nav__dropdown {
+        top: 27%;
+    }
+
+    .nav__item {
+        padding: 10px 0;
+    }
+
+    .header__content {
+        height: 600px;
+    }
+
+    .header_content_tittle {
+        font-size: 40px;
+    }
+
+    .header__content_text {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .collection {
+        text-align: center;
+    }
+}
+
+@media(max-width:576px) {
+    .nav__item_link {
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav__list_link:nth-child(3) {
+        order: 1;
+    }
+
+    .nav__dropdown {
+        top: 64%;
+        left: 39%;
+        width: 130px;
+        text-align: center;
+    }
+
+    .nav__dropdown_link a {
+        padding: 12px 0 12px 0;
+    }
+    .header__content_tittle {
+        font-size: 28px;
+    }
+    .header__content_btn {
+        padding: 15px 25px;
+    }
+    .header__content {
+        height: 500px;
+    }
+    .comerce__desc {
+        margin-top: 20px;
+    }
+    .commerce__desc_tittle {
+        font-size: 38px;
+    }
+    .commerce__desc_tittle,
+    .collection__item_tittle,
+    .custom__desc_tittle {
+        font-size: 38px;
+    }
+    .commerce__desc_text {
+        font-size: 15px;
+    }
+    .custom__cards {
+        justify-content: center;
+    }
+    .custom_card {
+        align-items: center;
+    }
+    .custom__card_text {
+        margin-top: 20px;
+    }
+    .custom__card_span {
+        justify-content: center;
+        gap: 0;
+    }
+    .footer__item {
+        justify-content: center;
+    }
+}
+@media(max-width:375px) {
+    .header__content_title {
+        font-size: 20px;
+    }
+    .comerce__desc_title,
+    .collection__item_tittle  {
+        font-size: 34px;
+    }
+    .custom__desc_title {
+        font-size: 31px;
+        margin-bottom: 0;
+    }
+}
